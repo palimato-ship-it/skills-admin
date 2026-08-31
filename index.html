@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <base href="/skills-admin/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Skills app – interná platforma pre rozvoj obchodných zručností">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Skills">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Skills app</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Simple loading splash shown until Flutter takes over */
+    html, body { margin: 0; padding: 0; height: 100%; background: #ffffff; }
+    #splash {
+      position: fixed; inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 16px; font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+      color: #555;
+    }
+    #splash img { width: 96px; height: 96px; border-radius: 20px; }
+    .spinner {
+      width: 28px; height: 28px;
+      border: 3px solid #ddd; border-top-color: #C21B17;
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div id="splash">
+    <img src="icons/Icon-192.png" alt="">
+    <div class="spinner"></div>
+    <div>Načítavam…</div>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var s = document.getElementById('splash');
+      if (s) s.remove();
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
