@@ -159040,7 +159040,7 @@ m===$&&A.b()
 l=A
 k=J
 s=3
-return A.e(m.V("assessments").eA(0,A.W(["team_member_id",f,"team_member_name",g,"team_member_role",h,"date",B.b.gO(c.dA().split("T")),"status","pending","completed_phases",b,"assessor_id",a],t.N,t.K)).cQ(0).m8(0),$async$LY)
+return A.e(m.V("assessments").eA(0,A.W(["team_member_id",f,"team_member_name",g,"team_member_role",h,"date",B.b.gO(c.dA().split("T")),"status","inProgress","completed_phases",b,"assessor_id",a],t.N,t.K)).cQ(0).m8(0),$async$LY)
 case 3:p=l.a7(k.j(j,"id"))
 m=e.gf2(e)
 o=m.ej(m,new A.aKY()).cZ(0,new A.aKZ(p,d),t.xE).aS(0)
@@ -174951,7 +174951,7 @@ s=A.I(p.h(a,"date"))
 s=A.el(s==null?"":s)
 if(s==null)s=new A.az(Date.now(),0,!1)
 if(J.i(l,"planned"))r=B.BT
-else r=J.i(l,"pending")?B.a25:B.BS
+else r=J.i(l,"pending")||J.i(l,"inProgress")?B.a25:B.BS
 q=A.cR(p.h(a,"overall_score"))
 if(q==null)q=null
 return new A.i5(n,k,j,s,r,q,A.I(p.h(a,"team_member_id")),A.I(p.h(a,"assessor_id")),A.I(p.h(a,"id")))},
