@@ -159466,7 +159466,7 @@ case 2:q=$.X().b
 q===$&&A.b()
 p=t.z
 s=4
-return A.d(q.S("app_users").aS(0,A.V(["branch",null],p,p)).a1("branch",b),$async$MD)
+return A.d(q.S("app_users").aS(0,A.V(["branch",""],p,p)).a1("branch",b),$async$MD)
 case 4:case 3:q=$.X().b
 q===$&&A.b()
 s=5
