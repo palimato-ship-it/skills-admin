@@ -160733,7 +160733,7 @@ break
 case 28:if(!n.c){s=1
 break}A.dB("VoiceAssistant: DC open \u2014 sending session.update","INFO")
 a7=A.A(b0,b2)
-J.b0(a7,"type","realtime.session")
+J.b0(a7,"type","realtime")
 b3=t.s
 J.b0(a7,"modalities",A.a(["text","audio"],b3))
 b7=J.aJ(a2)!==0?a2:"Si hlasov\xfd asistent v aplik\xe1cii Generali Skills. Odpovedaj stru\u010dne a po slovensky."
