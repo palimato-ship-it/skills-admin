@@ -162490,7 +162490,7 @@ case 42:if(n.c)n.sa4(0,n.f.br3(B.a3S,b))
 b2=t.N
 b4=t.z
 n.q4(A.Q(["type","conversation.item.create","item",A.Q(["type","function_call_output","call_id",c2,"output",'{"success": true}'],b2,b2)],b2,b4))
-n.q4(A.Q(["type","response.create"],b2,b4))
+if(n.ay)n.q4(A.Q(["type","response.create"],b2,b4))
 s=4
 break
 case 35:if(J.o(b4?null:J.n(c0,"type"),"function_call"))b2=J.o(b4?null:J.n(c0,"name"),"set_user_preference")
