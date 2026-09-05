@@ -160709,77 +160709,77 @@ case 2:q.sa5(0,q.f.bpu(a))
 A.dg('VoiceAssistant: preferred voice set to "'+a+'"',"INFO")
 return A.k(null,r)}})
 return A.l($async$pL,r)},
-kV(){var s=0,r=A.m(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8
-var $async$kV=A.i(function(d9,e0){if(d9===1){o.push(e0)
-s=p}for(;;)switch(s){case 0:d2=n.w
-d8=A
+kV(){var s=0,r=A.m(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6
+var $async$kV=A.i(function(d7,d8){if(d7===1){o.push(d8)
+s=p}for(;;)switch(s){case 0:d0=n.w
+d6=A
 s=3
-return A.d(d2.HN(),$async$kV)
-case 3:d3=d8.cOg(e0)
-n.ay=d3!==B.n6
-b1=n.f
-if(d3!==b1.e)n.sa5(0,b1.Wo(d3))
+return A.d(d0.HN(),$async$kV)
+case 3:d1=d6.cOg(d8)
+n.ay=d1!==B.n6
+b0=n.f
+if(d1!==b0.e)n.sa5(0,b0.Wo(d1))
 n.sa5(0,n.f.bqw(null,!0,B.jt,""))
 p=5
 m=n.r.C(0,$.h1(),t.yu)
 s=8
-return A.d(d2.dR(0),$async$kV)
-case 8:l=e0
+return A.d(d0.dR(0),$async$kV)
+case 8:l=d8
 k=B.h.aS(B.h.br(m.dy,2),10,40)
 j=J.aK(l)>k?J.cXv(l,J.aK(l)-k):l
-d2=t.GU
-i=J.b4(j,new A.boV(),d2).aQ(0)
-b1=n.f
-b2=b1.f
-b1=b1.y
-if(b1.length===0)b1="admin-default"
-A.dg("VoiceAssistant: starting session \u2014 lang="+b2+' voice="'+b1+'" firstSession='+n.ay,"INFO")
-b1=t.N
-b2=t.z
-b3=A.Q(["iceServers",A.a([A.Q(["urls","stun:stun.l.google.com:19302"],b1,b1),A.Q(["urls","stun:stun1.l.google.com:19302"],b1,b1)],t.m0),"sdpSemantics","unified-plan"],b1,b2)
+d0=t.GU
+i=J.b4(j,new A.boV(),d0).aQ(0)
+b0=n.f
+b1=b0.f
+b0=b0.y
+if(b0.length===0)b0="admin-default"
+A.dg("VoiceAssistant: starting session \u2014 lang="+b1+' voice="'+b0+'" firstSession='+n.ay,"INFO")
+b0=t.N
+b1=t.z
+b2=A.Q(["iceServers",A.a([A.Q(["urls","stun:stun.l.google.com:19302"],b0,b0),A.Q(["urls","stun:stun1.l.google.com:19302"],b0,b0)],t.m0),"sdpSemantics","unified-plan"],b0,b1)
 s=9
-return A.d($.cTX().a9W(b3,null),$async$kV)
-case 9:n.y=e0
-b3=t.K
+return A.d($.cTX().a9W(b2,null),$async$kV)
+case 9:n.y=d8
+b2=t.K
 s=10
-return A.d(new A.b4T().HX(0,A.Q(["audio",A.Q(["echoCancellation",!0,"noiseSuppression",!1,"autoGainControl",!0,"sampleRate",48e3,"channelCount",1],b1,b3),"video",!1],b1,b2)),$async$kV)
-case 10:n.Q=e0
+return A.d(new A.b4T().HX(0,A.Q(["audio",A.Q(["echoCancellation",!0,"noiseSuppression",!1,"autoGainControl",!0,"sampleRate",48e3,"channelCount",1],b0,b2),"video",!1],b0,b1)),$async$kV)
+case 10:n.Q=d8
 A.dg("VoiceAssistant: microphone stream acquired","INFO")
-b4=n.Q.ag4(0),b5=b4.length,b6=0
-case 11:if(!(b6<b4.length)){s=13
-break}h=b4[b6]
-b7=n.y
+b3=n.Q.ag4(0),b4=b3.length,b5=0
+case 11:if(!(b5<b3.length)){s=13
+break}h=b3[b5]
+b6=n.y
+b6.toString
+b7=n.Q
 b7.toString
-b8=n.Q
-b8.toString
 s=14
-return A.d(b7.a8r(0,h,b8),$async$kV)
-case 14:case 12:b4.length===b5||(0,A.S)(b4),++b6
+return A.d(b6.a8r(0,h,b7),$async$kV)
+case 14:case 12:b3.length===b4||(0,A.S)(b3),++b5
 s=11
 break
 case 13:g=new A.bb8()
-b4=n.y
-b4.toString
+b3=n.y
+b3.toString
 g={ordered:!0,protocol:"sctp",negotiated:!1,id:0}
-b4=b4.at
-b4===$&&A.b()
+b3=b3.at
+b3===$&&A.b()
 s=15
-return A.d(A.f8(A.d3O(b4.createDataChannel("oai-events",g)),t.Tf),$async$kV)
-case 15:b4=n.z=e0
-b5=t.c
-b7=t.h
-f=new A.bF(new A.aQ($.aR,b5),b7)
-b4.a=new A.boW(n,f)
-b4.b=new A.boX(n)
-b4=n.y
-b4.Q=new A.boY()
+return A.d(A.f8(A.d3O(b3.createDataChannel("oai-events",g)),t.Tf),$async$kV)
+case 15:b3=n.z=d8
+b4=t.c
+b6=t.h
+f=new A.bF(new A.aQ($.aR,b4),b6)
+b3.a=new A.boW(n,f)
+b3.b=new A.boX(n)
+b3=n.y
+b3.Q=new A.boY()
 s=16
-return A.d(b4.WD(0,A.Q(["offerToReceiveAudio",1,"offerToReceiveVideo",0],b1,b2)),$async$kV)
-case 16:e=e0
+return A.d(b3.WD(0,A.Q(["offerToReceiveAudio",1,"offerToReceiveVideo",0],b0,b1)),$async$kV)
+case 16:e=d8
 s=17
 return A.d(n.y.Qg(0,e),$async$kV)
 case 17:A.dg("VoiceAssistant: local SDP set, gathering ICE...","INFO")
-d=new A.bF(new A.aQ($.aR,b5),b7)
+d=new A.bF(new A.aQ($.aR,b4),b6)
 n.y.c=new A.boZ(d)
 p=19
 s=22
@@ -160788,7 +160788,7 @@ case 22:p=5
 s=21
 break
 case 19:p=18
-d4=o.pop()
+d2=o.pop()
 A.dg("VoiceAssistant: ICE gathering timed out, proceeding","INFO")
 s=21
 break
@@ -160796,59 +160796,59 @@ case 18:s=5
 break
 case 21:s=23
 return A.d(n.y.a0u(),$async$kV)
-case 23:c=e0
-b4=c
-c0=b4==null?null:b4.a
-b=c0==null?"":c0
+case 23:c=d8
+b3=c
+b9=b3==null?null:b3.a
+b=b9==null?"":b9
 if(J.aK(b)===0){A.dg("VoiceAssistant: SDP offer is empty","ERROR")
 n.Jy("connection_error")
 s=1
 break}A.dg("VoiceAssistant: sending SDP to Edge Function","INFO")
-b4=$.W().b
-b4===$&&A.b()
-b4=b4.ax
-b4===$&&A.b()
-b8=n.f
+b3=$.W().b
+b3===$&&A.b()
+b3=b3.ax
+b3===$&&A.b()
+b7=n.f
 s=24
-return A.d(b4.kb("voice-assistant",A.Q(["action","negotiateSdp","sdpOffer",b,"userLanguage",b8.f,"dataScope",m.cx,"assistantName",m.db,"userPreferredVoice",b8.y,"introStage",A.d7t(b8.e),"recentHistory",i,"totalExchangeCount",J.aK(l),"memoryWindowDays",m.dy],b1,b3)),$async$kV)
-case 24:a=e0
+return A.d(b3.kb("voice-assistant",A.Q(["action","negotiateSdp","sdpOffer",b,"userLanguage",b7.f,"dataScope",m.cx,"assistantName",m.db,"userPreferredVoice",b7.y,"introStage",A.d7t(b7.e),"recentHistory",i,"totalExchangeCount",J.aK(l),"memoryWindowDays",m.dy],b0,b2)),$async$kV)
+case 24:a=d8
 if(a.b!==200){A.dg("VoiceAssistant: Edge Function error "+a.b,"ERROR")
 n.Jy("connection_error")
 s=1
 break}a0=t.nA.a(a.a)
-b4=a0
-c1=A.H(b4==null?null:J.n(b4,"sdpAnswer"))
-a1=c1==null?"":c1
-b4=a0
-c2=A.H(b4==null?null:J.n(b4,"systemPrompt"))
-a2=c2==null?"":c2
-b4=a0
-c3=A.H(b4==null?null:J.n(b4,"voice"))
-a3=c3==null?"onyx":c3
-b4=a0
-c4=A.H(b4==null?null:J.n(b4,"noiseReduction"))
-a4=c4==null?"far_field":c4
-b4=a0
-c5=A.H(b4==null?null:J.n(b4,"turnDetection"))
-a5=c5==null?"semantic_vad":c5
-b4=a0
-c6=A.H(b4==null?null:J.n(b4,"eagerness"))
-a6=c6==null?"auto":c6
-b4=a0
-b4=A.H(b4==null?null:J.n(b4,"model"))
-if((b4==null?null:b4.length!==0)===!0){b4=a0
-b4.toString
-c7=A.a4(J.n(b4,"model"))}else c7=m.k3.length!==0?m.k3:"gpt-realtime-2.1"
-a7=c7
+b3=a0
+c0=A.H(b3==null?null:J.n(b3,"sdpAnswer"))
+a1=c0==null?"":c0
+b3=a0
+c1=A.H(b3==null?null:J.n(b3,"systemPrompt"))
+a2=c1==null?"":c1
+b3=a0
+c2=A.H(b3==null?null:J.n(b3,"voice"))
+a3=c2==null?"onyx":c2
+b3=a0
+c3=A.H(b3==null?null:J.n(b3,"noiseReduction"))
+a4=c3==null?"far_field":c3
+b3=a0
+c4=A.H(b3==null?null:J.n(b3,"turnDetection"))
+a5=c4==null?"semantic_vad":c4
+b3=a0
+c5=A.H(b3==null?null:J.n(b3,"eagerness"))
+a6=c5==null?"auto":c5
+b3=a0
+b3=A.H(b3==null?null:J.n(b3,"model"))
+if((b3==null?null:b3.length!==0)===!0){b3=a0
+b3.toString
+c6=A.a4(J.n(b3,"model"))}else c6=m.k3.length!==0?m.k3:"gpt-realtime-2.1"
+a7=c6
 if(J.aK(a1)===0){A.dg("VoiceAssistant: SDP answer empty","ERROR")
 n.Jy("connection_error")
 s=1
-break}b4=A.u(a3)
-b8=A.u(a4)
-c8=A.u(a5)
-c9=A.u(a6)
-d0=J.aK(a2)===0?"EMPTY":""+J.aK(a2)+" chars"
-A.dg("VoiceAssistant: SDP answer received, voice="+b4+" noise="+b8+" turn="+c8+" eagerness="+c9+" prompt="+d0,"INFO")
+break}b3=A.u(a3)
+b7=A.u(a4)
+c7=A.u(a5)
+c8=A.u(a6)
+c9=J.aK(a2)===0?"EMPTY":""+J.aK(a2)+" chars"
+A.dg("VoiceAssistant: SDP answer received, voice="+b3+" noise="+b7+" turn="+c7+" eagerness="+c8+" prompt="+c9,"INFO")
 s=25
 return A.d(n.y.Qm(0,new A.HO(a1,"answer")),$async$kV)
 case 25:A.dg("VoiceAssistant: remote SDP set, waiting for DC...","INFO")
@@ -160859,7 +160859,7 @@ case 30:p=5
 s=29
 break
 case 27:p=26
-d5=o.pop()
+d3=o.pop()
 A.dg("VoiceAssistant: data channel did not open","ERROR")
 n.Jy("connection_error")
 s=1
@@ -160870,50 +160870,48 @@ case 26:s=5
 break
 case 29:if(!n.c){s=1
 break}A.dg("VoiceAssistant: DC open \u2014 sending session.update","INFO")
-a8=m.k4.length!==0?m.k4:"whisper-1"
-b4=t.s
-b8=A.a(["audio"],b4)
-c8=J.aK(a2)!==0?a2:"Si hlasov\xfd asistent v aplik\xe1cii Generali Skills. Odpovedaj stru\u010dne a po slovensky."
-c9=A.Q(["model",a8],b1,b1)
-d0=J.o(a5,"server_vad")?A.Q(["type","server_vad","threshold",0.5,"prefix_padding_ms",300,"silence_duration_ms",700],b1,b3):A.Q(["type","semantic_vad","eagerness",a6],b1,b1)
-d1=t.nf
-n.pZ(A.Q(["type","session.update","session",A.Q(["type","realtime","model",a7,"output_modalities",b8,"instructions",c8,"input_audio_transcription",c9,"audio",A.Q(["input",A.Q(["turn_detection",d0],b1,d1)],b1,t.cd),"tools",A.a([A.Q(["type","function","name","set_user_language","description",'Save the language the user spoke during the intro greeting. Call this immediately once you are certain of the user\'s language (from their spoken response). For ambiguous responses ("ahoj" is identical in Slovak and Czech), first ask "Hovor\xedte slovensky alebo \u010desky? / Mluv\xedte slovensky nebo \u010desky?" and wait for a clear answer before calling. NEVER call this more than once per session.',"parameters",A.Q(["type","object","properties",A.Q(["lang",A.Q(["type","string","enum",A.a(["sk","cs","en"],b4),"description","Detected language code: sk=Slovak, cs=Czech, en=English."],b1,b3),"confirmation",A.Q(["type","string","description",'Short spoken confirmation in the detected language, e.g. "V\xfdborne, nastavujem sloven\u010dinu." or "Skv\u011bl\xe9, nastavuji \u010de\u0161tinu." or "Great, setting language to English."'],b1,b1)],b1,d1),"required",A.a(["lang","confirmation"],b4)],b1,b3)],b1,b3),A.Q(["type","function","name","set_user_preference","description",'Save the user\'s preferred voice. Call this immediately when the user says they prefer a male or female voice, or names a specific voice. Male voices: alloy, ash (default male), ballad, cedar, echo, verse. Female voices: coral, marin, sage, shimmer (default female). If the user only says "male" or "female" without specifying, use "ash" for male and "shimmer" for female. During the intro onboarding the voice takes effect on the next session start. In a regular (post-intro) session the session restarts automatically with the new voice immediately after your spoken confirmation. Do NOT ask for confirmation \u2014 just call it and confirm verbally.',"parameters",A.Q(["type","object","properties",A.Q(["gender",A.Q(["type","string","enum",A.a(["male","female"],b4),"description","The gender of the chosen voice."],b1,b3),"voice",A.Q(["type","string","enum",A.a(["alloy","ash","ballad","cedar","echo","verse","coral","marin","sage","shimmer"],b4),"description",'The exact OpenAI Realtime voice name. Male: alloy, ash, ballad, cedar, echo, verse. Female: coral, marin, sage, shimmer. Default to "ash" for male and "shimmer" for female.'],b1,b3),"confirmation",A.Q(["type","string","description",'Spoken confirmation of the change. Intro stage: say the voice will be active from the next session. Regular session: say the session will restart now with the new voice (SK: "Prep\xednam hlas, chvilku strpte." CS: "P\u0159ep\xedn\xe1m hlas, chvilku strpen\xed." EN: "Switching voice now, one moment.").'],b1,b1)],b1,d1),"required",A.a(["gender","voice","confirmation"],b4)],b1,b3)],b1,b3),A.Q(["type","function","name","search_knowledge","description","Search the company knowledge base (products, procedures, sales scripts, guidelines, regulations) when the user asks something not already provided in the context above. Call this when the user asks about: product terms or conditions, sales techniques, company procedures, compliance rules, or anything that sounds like company knowledge rather than personal data. Do NOT call for production numbers, goals, calendar, or team data \u2014 those are already in the context. Do NOT wait for the user to ask you to search \u2014 call it automatically whenever the answer is not in your context.","parameters",A.Q(["type","object","properties",A.Q(["query",A.Q(["type","string","description","A concise search query in the conversation language, describing exactly what to look up."],b1,b1)],b1,d2),"required",A.a(["query"],b4)],b1,b3)],b1,b3),A.Q(["type","function","name","end_session","description",'End the voice session. Call this ONLY after the user has confirmed they have no more questions. Always ask for confirmation first ("Is that all? Do you have any more questions?"). Never call on the first goodbye signal alone.',"parameters",A.Q(["type","object","properties",A.Q(["farewell",A.Q(["type","string","description","Short spoken farewell message to play before closing."],b1,b1)],b1,d2),"required",A.a(["farewell"],b4)],b1,b3)],b1,b3)],t.Mq),"tool_choice","auto","max_output_tokens","inf"],b1,b3)],b1,b2))
+b3=t.s
+b7=A.a(["audio"],b3)
+c7=J.aK(a2)!==0?a2:"Si hlasov\xfd asistent v aplik\xe1cii Generali Skills. Odpovedaj stru\u010dne a po slovensky."
+c8=J.o(a5,"server_vad")?A.Q(["type","server_vad","threshold",0.5,"prefix_padding_ms",300,"silence_duration_ms",700],b0,b2):A.Q(["type","semantic_vad","eagerness",a6],b0,b0)
+c9=t.nf
+n.pZ(A.Q(["type","session.update","session",A.Q(["type","realtime","model",a7,"output_modalities",b7,"instructions",c7,"audio",A.Q(["input",A.Q(["turn_detection",c8],b0,c9)],b0,t.cd),"tools",A.a([A.Q(["type","function","name","set_user_language","description",'Save the language the user spoke during the intro greeting. Call this immediately once you are certain of the user\'s language (from their spoken response). For ambiguous responses ("ahoj" is identical in Slovak and Czech), first ask "Hovor\xedte slovensky alebo \u010desky? / Mluv\xedte slovensky nebo \u010desky?" and wait for a clear answer before calling. NEVER call this more than once per session.',"parameters",A.Q(["type","object","properties",A.Q(["lang",A.Q(["type","string","enum",A.a(["sk","cs","en"],b3),"description","Detected language code: sk=Slovak, cs=Czech, en=English."],b0,b2),"confirmation",A.Q(["type","string","description",'Short spoken confirmation in the detected language, e.g. "V\xfdborne, nastavujem sloven\u010dinu." or "Skv\u011bl\xe9, nastavuji \u010de\u0161tinu." or "Great, setting language to English."'],b0,b0)],b0,c9),"required",A.a(["lang","confirmation"],b3)],b0,b2)],b0,b2),A.Q(["type","function","name","set_user_preference","description",'Save the user\'s preferred voice. Call this immediately when the user says they prefer a male or female voice, or names a specific voice. Male voices: alloy, ash (default male), ballad, cedar, echo, verse. Female voices: coral, marin, sage, shimmer (default female). If the user only says "male" or "female" without specifying, use "ash" for male and "shimmer" for female. During the intro onboarding the voice takes effect on the next session start. In a regular (post-intro) session the session restarts automatically with the new voice immediately after your spoken confirmation. Do NOT ask for confirmation \u2014 just call it and confirm verbally.',"parameters",A.Q(["type","object","properties",A.Q(["gender",A.Q(["type","string","enum",A.a(["male","female"],b3),"description","The gender of the chosen voice."],b0,b2),"voice",A.Q(["type","string","enum",A.a(["alloy","ash","ballad","cedar","echo","verse","coral","marin","sage","shimmer"],b3),"description",'The exact OpenAI Realtime voice name. Male: alloy, ash, ballad, cedar, echo, verse. Female: coral, marin, sage, shimmer. Default to "ash" for male and "shimmer" for female.'],b0,b2),"confirmation",A.Q(["type","string","description",'Spoken confirmation of the change. Intro stage: say the voice will be active from the next session. Regular session: say the session will restart now with the new voice (SK: "Prep\xednam hlas, chvilku strpte." CS: "P\u0159ep\xedn\xe1m hlas, chvilku strpen\xed." EN: "Switching voice now, one moment.").'],b0,b0)],b0,c9),"required",A.a(["gender","voice","confirmation"],b3)],b0,b2)],b0,b2),A.Q(["type","function","name","search_knowledge","description","Search the company knowledge base (products, procedures, sales scripts, guidelines, regulations) when the user asks something not already provided in the context above. Call this when the user asks about: product terms or conditions, sales techniques, company procedures, compliance rules, or anything that sounds like company knowledge rather than personal data. Do NOT call for production numbers, goals, calendar, or team data \u2014 those are already in the context. Do NOT wait for the user to ask you to search \u2014 call it automatically whenever the answer is not in your context.","parameters",A.Q(["type","object","properties",A.Q(["query",A.Q(["type","string","description","A concise search query in the conversation language, describing exactly what to look up."],b0,b0)],b0,d0),"required",A.a(["query"],b3)],b0,b2)],b0,b2),A.Q(["type","function","name","end_session","description",'End the voice session. Call this ONLY after the user has confirmed they have no more questions. Always ask for confirmation first ("Is that all? Do you have any more questions?"). Never call on the first goodbye signal alone.',"parameters",A.Q(["type","object","properties",A.Q(["farewell",A.Q(["type","string","description","Short spoken farewell message to play before closing."],b0,b0)],b0,d0),"required",A.a(["farewell"],b3)],b0,b2)],b0,b2)],t.Mq),"tool_choice","auto","max_output_tokens","inf"],b0,b2)],b0,b1))
 A.dg("VoiceAssistant: session.update sent (prompt="+(J.aK(a2)!==0?""+J.aK(a2)+" chars":"EMPTY \u2014 fallback used")+")","INFO")
 n.sa5(0,n.f.Wt(0,B.h3))
 n.atM()
 s=n.ay?31:33
 break
-case 31:n.ch=new A.bF(new A.aQ($.aR,b5),b7)
+case 31:n.ch=new A.bF(new A.aQ($.aR,b4),b6)
 A.dg("VoiceAssistant: first session \u2014 watching for model auto-start (1.5 s)...","INFO")
-a9=!1
+a8=!1
 p=35
 s=38
 return A.d(n.ch.a.mO(0,B.xI),$async$kV)
-case 38:a9=!0
+case 38:a8=!0
 A.dg("VoiceAssistant: model auto-started intro \u2014 no explicit response.create needed","INFO")
 p=5
 s=37
 break
 case 35:p=34
-d6=o.pop()
+d4=o.pop()
 A.dg("VoiceAssistant: model did not auto-start \u2014 sending fallback response.create","INFO")
 s=37
 break
 case 34:s=5
 break
-case 37:if(!a9&&n.c)n.pZ(A.Q(["type","response.create"],b1,b2))
+case 37:if(!a8&&n.c)n.pZ(A.Q(["type","response.create"],b0,b1))
 s=32
 break
 case 33:s=39
-return A.d(A.ev(B.aeq,null,b2),$async$kV)
+return A.d(A.ev(B.aeq,null,b1),$async$kV)
 case 39:if(n.c&&n.z!=null){A.dg("VoiceAssistant: regular session \u2014 sending brief-greeting response.create","INFO")
-n.pZ(A.Q(["type","response.create","response",A.Q(["instructions",'Give a single short greeting (one sentence, under 6 words). Examples: "\u010c\xedm m\xf4\u017eem pom\xf4c\u0165?" (SK), "\u010c\xedm mohu pomoci?" (CS), "How can I help?" (EN). Match the user\'s language. Do not mention capabilities or introduce yourself.'],b1,b1)],b1,b2))}case 32:p=2
+n.pZ(A.Q(["type","response.create","response",A.Q(["instructions",'Give a single short greeting (one sentence, under 6 words). Examples: "\u010c\xedm m\xf4\u017eem pom\xf4c\u0165?" (SK), "\u010c\xedm mohu pomoci?" (CS), "How can I help?" (EN). Match the user\'s language. Do not mention capabilities or introduce yourself.'],b0,b0)],b0,b1))}case 32:p=2
 s=7
 break
 case 5:p=4
-d7=o.pop()
-b0=A.ad(d7)
-A.dg("VoiceAssistant: _startSession error: "+A.u(b0),"ERROR")
+d5=o.pop()
+a9=A.ad(d5)
+A.dg("VoiceAssistant: _startSession error: "+A.u(a9),"ERROR")
 n.Jy("connection_error")
 s=7
 break
