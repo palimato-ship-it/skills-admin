@@ -160734,14 +160734,13 @@ case 28:if(!n.c){s=1
 break}A.dB("VoiceAssistant: DC open \u2014 sending session.update","INFO")
 a7=A.A(b0,b2)
 J.b0(a7,"type","realtime")
-b3=t.s
-J.b0(a7,"modalities",A.a(["text","audio"],b3))
-b7=J.aJ(a2)!==0?a2:"Si hlasov\xfd asistent v aplik\xe1cii Generali Skills. Odpovedaj stru\u010dne a po slovensky."
-J.b0(a7,"instructions",b7)
+b3=J.aJ(a2)!==0?a2:"Si hlasov\xfd asistent v aplik\xe1cii Generali Skills. Odpovedaj stru\u010dne a po slovensky."
+J.b0(a7,"instructions",b3)
 J.b0(a7,"input_audio_transcription",A.S(["model","whisper-1"],b0,b0))
-b7=J.o(a5,"server_vad")?A.S(["type","server_vad","threshold",0.5,"prefix_padding_ms",300,"silence_duration_ms",700],b0,b2):A.S(["type","semantic_vad","eagerness",a6],b0,b0)
-J.b0(a7,"turn_detection",b7)
+b3=J.o(a5,"server_vad")?A.S(["type","server_vad","threshold",0.5,"prefix_padding_ms",300,"silence_duration_ms",700],b0,b2):A.S(["type","semantic_vad","eagerness",a6],b0,b0)
+J.b0(a7,"turn_detection",b3)
 if(!J.o(a4,"disabled"))J.b0(a7,"input_audio_noise_reduction",A.S(["type",a4],b0,b0))
+b3=t.s
 J.b0(a7,"tools",A.a([A.S(["type","function","name","end_session","description",'End the voice session. Call this ONLY after the user has confirmed they have no more questions. Always ask for confirmation first ("Is that all? Do you have any more questions?"). Never call on the first goodbye signal alone.',"parameters",A.S(["type","object","properties",A.S(["farewell",A.S(["type","string","description","Short spoken farewell message to play before closing."],b0,b0)],b0,c9),"required",A.a(["farewell"],b3)],b0,b2)],b0,b2),A.S(["type","function","name","search_knowledge","description","Search the company knowledge base (products, procedures, sales scripts, guidelines, regulations) when the user asks something not already provided in the context above. Call this when the user asks about: product terms or conditions, sales techniques, company procedures, compliance rules, or anything that sounds like company knowledge rather than personal data. Do NOT call for production numbers, goals, calendar, or team data \u2014 those are already in the context. Do NOT wait for the user to ask you to search \u2014 call it automatically whenever the answer is not in your context.","parameters",A.S(["type","object","properties",A.S(["query",A.S(["type","string","description","A concise search query in the conversation language, describing exactly what to look up."],b0,b0)],b0,c9),"required",A.a(["query"],b3)],b0,b2)],b0,b2),A.S(["type","function","name","set_user_preference","description",'Save the user\'s preferred voice (male or female). Call this immediately when the user says they prefer a male or female voice, or says something like "talk to me like a male/female", "switch to a male/female voice", "speak as female", etc. The new voice takes effect from the next session. Do NOT ask for confirmation \u2014 just call it and confirm verbally.',"parameters",A.S(["type","object","properties",A.S(["gender",A.S(["type","string","enum",A.a(["male","female"],b3),"description","The preferred voice gender."],b0,b2),"voice",A.S(["type","string","description",'The OpenAI Realtime voice to use. Use "ash" for male, "shimmer" for female.'],b0,b0),"confirmation",A.S(["type","string","description","A short spoken message confirming the change, mentioning the new voice will be active from the next session."],b0,b0)],b0,t.nf),"required",A.a(["gender","voice","confirmation"],b3)],b0,b2)],b0,b2)],t.Mq))
 J.b0(a7,"tool_choice","auto")
 n.uP(A.S(["type","session.update","session",a7],b0,b1))
