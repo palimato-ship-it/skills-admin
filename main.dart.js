@@ -191615,7 +191615,9 @@ case"message":s=8
 break
 case"onboardingComplete":s=9
 break
-case"vad":s=10
+case"onboardingFinished":s=10
+break
+case"vad":s=11
 break
 default:s=4
 break}break
@@ -191654,7 +191656,7 @@ A.aQv("ElevenLabs",A.v(m.h(0,"source"))+": "+A.v(m.h(0,"message")))
 q=null
 s=1
 break
-case 9:p=12
+case 9:p=13
 g=t.N
 f=t.z
 m=A.dp(t.f.a(a.b),g,f)
@@ -191665,17 +191667,17 @@ k=d==null?null:d
 e=A.cR(J.i(m,"setupComplete"))
 j=e!==!1
 if(l==null||l.length===0||k==null){g=A.ao("Neplatn\xe9 nastavenia hlasu alebo r\xfdchlosti.")
-throw A.h(g)}s=15
+throw A.h(g)}s=16
 return A.d(n.Pq(j,k,l),$async$T_)
-case 15:A.aQv("ElevenLabs","voice preferences saved voice="+l+" speed="+A.v(k)+" setupComplete="+A.v(j))
+case 16:A.aQv("ElevenLabs","voice preferences saved voice="+l+" speed="+A.v(k)+" setupComplete="+A.v(j))
 g=A.V(["ok",!0],g,f)
 q=g
 s=1
 break
 p=2
-s=14
+s=15
 break
-case 12:p=11
+case 13:p=12
 b=o.pop()
 i=A.af(b)
 h=A.b8(b)
@@ -191684,13 +191686,16 @@ g=A.V(["ok",!1,"error",J.bd(i)],t.N,t.z)
 q=g
 s=1
 break
-s=14
+s=15
 break
-case 11:s=2
+case 12:s=2
 break
-case 14:s=4
+case 15:s=4
 break
-case 10:q=null
+case 10:q=A.V(["ok",!0],t.N,t.z)
+s=1
+break
+case 11:q=null
 s=1
 break
 case 4:q=null
