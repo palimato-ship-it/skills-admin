@@ -46198,8 +46198,8 @@ _.r="sk"
 _.z=_.y=_.x=_.w=null
 _.as=_.Q=!1
 _.at="voice_choice"
-_.CW=_.ch=_.ay=_.ax=null
-_.cy=_.cx=!1
+_.cx=_.CW=_.ch=_.ay=_.ax=null
+_.db=_.cy=!1
 _.a9$=0
 _.af$=a
 _.aw$=_.b7$=0},
@@ -191624,8 +191624,8 @@ n.f=g==null?null:J.bd(g)
 n.a=!0
 n.b=!1
 n.d="connected"
-if(n.cy){A.aQv("ElevenLabs","voice choice restart confirmed on connected")
-n.cy=!1}g=n.f
+if(n.db){A.aQv("ElevenLabs","voice choice restart confirmed on connected")
+n.db=!1}g=n.f
 A.aQv("ElevenLabs","connected "+(g==null?"":g))
 n.aK()
 q=null
