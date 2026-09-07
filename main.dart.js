@@ -165648,6 +165648,7 @@ d7=d7==null?null:J.aD(d7)
 if(d7==null)d7=0
 A.d5("VoiceAssistant: session created | model="+d4+" voice="+d5+" turn="+d6+" tools="+d7,"INFO")
 A.cGJ("session.created/full",d3.k(d2))
+n.go=!0
 s=4
 break
 case 6:n.go=!0
