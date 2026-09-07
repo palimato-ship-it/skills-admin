@@ -162762,9 +162762,9 @@ A.d4("VoiceAssistant: silence timer started ("+s+"s, check-in at "+r+"s, count="
 if(q.dy===0)q.dx=A.dF(A.dS(0,0,0,0,0,r),new A.bqF(q))
 q.db=A.dF(A.dS(0,0,0,0,0,s),new A.bqG(q))},
 bgK(){var s,r,q=this.f.f
-A:{if("cs"===q){s='Zeptej se pouze: "Jste tu?" Nic v\xedc.'
+A:{if("cs"===q){s='Zeptej se pouze: "Jsi tu?" Nic v\xedc.'
 break A}if("en"===q){s='Ask only: "Are you there?" Nothing else.'
-break A}s='Op\xfdtaj sa iba: "Ste tu?" Ni\u010d in\xe9.'
+break A}s='Op\xfdtaj sa iba: "Si tu?" Ni\u010d in\xe9.'
 break A}r=t.N
 this.mi(A.N(["type","response.create","response",A.N(["instructions",s,"max_output_tokens",40],r,t.K)],r,t.z))
 A.VT("silence_check_in",s)},
