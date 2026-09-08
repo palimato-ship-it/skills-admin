@@ -165611,9 +165611,9 @@ case"conversation.item.done":s=10
 break
 case"response.created":s=11
 break
-case"response.audio.delta":s=12
+case"response.output_audio.delta":s=12
 break
-case"response.audio.done":s=13
+case"response.output_audio.done":s=13
 break
 case"response.output_audio_transcript.delta":s=14
 break
@@ -165714,7 +165714,7 @@ A.aZ2(A.d9J(J.mu(i)))}catch(h1){h=A.ab(h1)
 A.d2("VoiceAssistant: PCM feed error: "+A.p(h),"ERROR")}if(n.c&&n.f.a!==B.iC)n.sa1(0,n.f.Gc(0.6,B.iC))
 s=4
 break
-case 13:A.d2("VoiceAssistant: response.audio.done","INFO")
+case 13:A.d2("VoiceAssistant: response.output_audio.done","INFO")
 s=4
 break
 case 14:case 15:e8=A.E(J.i(m,"delta"))
