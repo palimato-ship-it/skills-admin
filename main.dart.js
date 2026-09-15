@@ -38104,14 +38104,17 @@ s=o.gN(a).b
 r=J.fi(b,t.i)
 for(q=0;q<b;q=p){p=q+1
 r[q]=s*p/b}return r},
-dkZ(a,b,c){var s,r,q,p,o=J.a1(a)
-if(o.ga7(a)||c<=0)return B.cy
-if(o.gA(a)>1)return A.cxX(a,b,c)
-s=o.gN(a).d.h(0,b)
+dkZ(a,b,c){var s,r,q,p,o,n=J.a1(a)
+if(n.ga7(a)||c<=0)return B.cy
+if(n.gA(a)>1)return A.cxX(a,b,c)
+s=n.gN(a).d.h(0,b)
 if(s==null)s=0
-r=J.fi(c,t.i)
-for(q=0;q<c;q=p){p=q+1
-r[q]=s*p/c}return r},
+if(b==="mtpl_casco"&&s<=0){r=n.gN(a).d.h(0,"casco")
+if(r==null)r=0
+n=n.gN(a).d.h(0,"mtpl")
+s=r+(n==null?0:n)}q=J.fi(c,t.i)
+for(p=0;p<c;p=o){o=p+1
+q[p]=s*o/c}return q},
 djb(a,b,c){var s,r,q,p,o=J.a1(a)
 if(o.gA(a)<=1){if(o.ga7(a))s=0
 else{o=o.gN(a).d.h(0,b)
@@ -166425,15 +166428,22 @@ $1(a){var s=J.n(a,"id")
 return s==null?null:J.bq(s)},
 $S:542}
 A.bbW.prototype={
-$1(a){var s,r,q,p="mtpl_casco",o=t.N,n=t.i,m=A.bW(a.d,o,n)
-if(!m.aA(0,p)){s=m.h(0,"casco")
-if(s==null)s=0
-r=m.h(0,"mtpl")
-m.m(0,p,s+(r==null?0:r))}q=A.bW(a.e,o,n)
-if(!q.aA(0,p)){o=q.h(0,"casco")
-if(o==null)o=0
-n=q.h(0,"mtpl")
-q.m(0,p,o+(n==null?0:n))}return new A.iq(a.a,a.b,a.c,m,q)},
+$1(a){var s,r,q,p,o="mtpl_casco",n=t.N,m=t.i,l=A.bW(a.d,n,m),k=l.h(0,"casco")
+if(k==null)k=0
+s=l.h(0,"mtpl")
+r=k+(s==null?0:s)
+k=l.h(0,o)
+if((k==null?0:k)<=0&&r>0)l.m(0,o,r)
+else if(!l.aA(0,o))l.m(0,o,r)
+q=A.bW(a.e,n,m)
+n=q.h(0,"casco")
+if(n==null)n=0
+m=q.h(0,"mtpl")
+p=n+(m==null?0:m)
+n=q.h(0,o)
+if((n==null?0:n)<=0&&p>0)q.m(0,o,p)
+else if(!q.aA(0,o))q.m(0,o,p)
+return new A.iq(a.a,a.b,a.c,l,q)},
 $S:987}
 A.q8.prototype={}
 A.bgL.prototype={
