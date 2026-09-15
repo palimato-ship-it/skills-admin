@@ -197533,7 +197533,7 @@ s===$&&A.b()
 s=A.bO(J.n(s,a))
 return B.c.a_(s==null?0:s,2)+" \u20ac"},
 F(a){var s,r,q=this,p=null,o=t.p
-o=A.a([A.bd(A.A(p,p,B.l,p,p,new A.C(B.v,p,p,A.q(4),p,p,B.o),p,4,p,p,p,p,p,42),p,p),B.af,A.c("Odhadovan\xe1 prov\xedzia",p,p,p,p,p,$.iL(),p,p,p),A.c("V\xfdpo\u010det pod\u013ea aktu\xe1lnej produkcie a pl\xe1nu",p,p,p,p,p,$.x(),p,p,p),B.J,A.jR(new A.N(B.bb,A.B(A.a([A.P(A.c("Odhad BASIC spolu",p,p,p,p,p,$.aB(),p,p,p),1),A.c(q.E3("estimated_basic_total"),p,p,p,p,p,$.ik().B(B.f),p,p,p)],o),B.j,p,B.d,B.i,0,p),p),p,p,p,p),B.R],o)
+o=A.a([A.bd(A.A(p,p,B.l,p,p,new A.C(B.v,p,p,A.q(4),p,p,B.o),p,4,p,p,p,p,p,42),p,p),B.af,A.c("Odhadovan\xe1 prov\xedzia spolu",p,p,p,p,p,$.iL(),p,p,p),A.c("V\xfdpo\u010det pod\u013ea aktu\xe1lnej produkcie a pl\xe1nu",p,p,p,p,p,$.x(),p,p,p),B.J,A.jR(new A.N(B.bb,A.B(A.a([A.P(A.c("Odhad BASIC spolu",p,p,p,p,p,$.aB(),p,p,p),1),A.c(q.E3("estimated_basic_total"),p,p,p,p,p,$.ik().B(B.f),p,p,p)],o),B.j,p,B.d,B.i,0,p),p),p,p,p,p),B.R],o)
 s=q.f
 r=A.r(s).i("cd<1,2>")
 B.b.C(o,A.fr(new A.cd(s,r),new A.bEO(q),r.i("p.E"),t.m))
