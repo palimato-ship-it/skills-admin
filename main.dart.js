@@ -201646,14 +201646,17 @@ $S:0}
 A.me.prototype={
 a4(){return new A.a7y()}}
 A.a7y.prototype={
-ga71(){var s=this.d
-return s===$?this.d=this.a.w:s},
+ga71(){var s,r=this.d
+if(r===$){s=this.a
+r=s.x
+r=this.d=r==null?s.w:r}return r},
 ag(){this.aw()
 this.Lb()},
 bc(a){var s,r,q=this
 q.bV(a)
 s=q.a
-if(a.c!==s.c){q.d=s.w
+if(a.c!==s.c){r=s.x
+q.d=r==null?s.w:r
 q.Lb()}else if(a.y!==s.y&&s.x!=null){r=s.x
 r.toString
 q.d=r
