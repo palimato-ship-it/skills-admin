@@ -182799,39 +182799,42 @@ case 2:s=q.Q
 s===$&&A.b()
 r=q.z
 r===$&&A.b()
-return s.ns(r)&&q.as.length!==0&&q.at.length!==0
+if(s.ns(r))s=q.as.length!==0||q.at.length!==0
+else s=!1
+return s
 default:return!0}},
-S6(){var s=0,r=A.l(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b
-var $async$S6=A.h(function(a,a0){if(a===1)return A.i(a0,r)
-for(;;)switch(s){case 0:b=p.w
+S6(){var s=0,r=A.l(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
+var $async$S6=A.h(function(a0,a1){if(a0===1)return A.i(a1,r)
+for(;;)switch(s){case 0:a=p.w
 p.ay===$&&A.b()
-if(b<3){p.u(new A.cm9(p))
+if(a<3){p.u(new A.cm9(p))
 s=1
 break}p.u(new A.cma(p))
-b=p.gP()
-o=b.B(0,$.az(),t.q)
+a=p.gP()
+o=a.B(0,$.az(),t.q)
 n=o==null?null:o.a
 if(n==null)n=""
-o=p.x,m=o.length,l=t.N,k=t.z,j=0
-case 3:if(!(j<o.length)){s=5
-break}i=o[j]
-h=$.jq().$1(n).gV()
-if(b.e==null)A.ak(A.as(u.w))
-h=h.eh(0,A.pV(b,!1))
-g=Date.now()
-f=p.z
-f===$&&A.b()
-e=p.Q
+m=p.at.length!==0?"activities":"production"
+o=p.x,l=o.length,k=t.N,j=t.z,i=0
+case 3:if(!(i<o.length)){s=5
+break}h=o[i]
+g=$.jq().$1(n).gV()
+if(a.e==null)A.ak(A.as(u.w))
+g=g.eh(0,A.pV(a,!1))
+f=Date.now()
+e=p.z
 e===$&&A.b()
-d=p.y
-c=i.f
+d=p.Q
+d===$&&A.b()
+c=p.y
+b=h.f
 s=6
-return A.d(h.F5(new A.fH("tmp-"+g,i.a,i.b,i.c,i.d,f,e,d.a,d.b,d.f,d.d,"stable",c,c,B.b.bk(p.as,", "),"AI Coach sa sp\xfa\u0161\u0165a\u2026",new A.ax(Date.now(),0,!1),"active","weekly","activities",null,A.R(["activities",p.at],l,k))),$async$S6)
-case 6:case 4:o.length===m||(0,A.Q)(o),++j
+return A.d(g.F5(new A.fH("tmp-"+f,h.a,h.b,h.c,h.d,e,d,c.a,c.b,c.f,c.d,"stable",b,b,B.b.bk(p.as,", "),"AI Coach sa sp\xfa\u0161\u0165a\u2026",new A.ax(Date.now(),0,!1),"active","weekly",m,null,A.R(["activities",p.at],k,j))),$async$S6)
+case 6:case 4:o.length===l||(0,A.Q)(o),++i
 s=3
 break
-case 5:b=p.c
-if(b!=null)A.Y(b,!1).R(!0)
+case 5:a=p.c
+if(a!=null)A.Y(a,!1).R(!0)
 case 1:return A.j(q,r)}})
 return A.k($async$S6,r)}}
 A.cmz.prototype={
@@ -182928,8 +182931,7 @@ $S:0}
 A.cmf.prototype={
 $0(){var s=this.a,r=s.y=this.b,q=t.N
 s.as=A.du(r.d,!0,q)
-r=r.e
-if(r.length!==0)s.at=A.du(r,!0,q)},
+s.at=A.du(r.e,!0,q)},
 $S:0}
 A.cms.prototype={
 $1(a){var s=this.a
