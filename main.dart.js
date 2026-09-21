@@ -203342,8 +203342,8 @@ case 1:return A.j(q,r)}})
 return A.k($async$Uv,r)},
 E(a){return new A.uj($.rU(),new A.bUh(this),null,null,t.D0)}}
 A.bUe.prototype={
-$1(a){var s=this,r=s.a.a.c
-return new A.KS(r,s.c,s.e,s.f,r==="rot:dashboard",null)},
+$1(a){var s=this,r=s.a.a.c,q=r==="rot:dashboard"||r==="rot:manager-activities"
+return new A.KS(r,s.c,s.e,s.f,q,null)},
 $S:1550}
 A.bUf.prototype={
 $1(a){var s=null
