@@ -174706,7 +174706,7 @@ return A.e(g.IW(),$async$oM)
 case 27:n.as=!0
 n.z=!1
 n.go=!0
-if(n.ax)n.mw(A.H(["type","session.instructions.append","event_id","setup_finished_"+1000*Date.now(),"delegation_id",null,"content",'The preferred calling name is now "'+A.r(h)+'" and first-time setup is complete. Confirm the name once. Then, in no more than three short sentences, explain that you can help with production and activity results, period comparisons, calendar priorities, authorized app data, and preparing email drafts. Finish with a warm goodbye and delegate session closure to the backend.'],t.N,t.z))
+if(n.ax)n.mw(A.H(["type","session.instructions.append","event_id","setup_finished_"+1000*Date.now(),"delegation_id",null,"content",'The preferred calling name is now "'+A.r(h)+'" and first-time setup is complete. Do not call setup_complete and never ask the calling-name question again. Confirm the name once. Then, in no more than three short sentences, explain that you can help with production and activity results, period comparisons, calendar priorities, authorized app data, and preparing email drafts. Finish with a warm goodbye and call end_session.'],t.N,t.z))
 m.$1$output(B.al.hy(A.H(["status","saved","calling_name",h,"setup_complete",!0,"voice_confirmed",!0],t.N,t.K),null))
 s=25
 break
