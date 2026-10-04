@@ -1,0 +1,13 @@
+{
+  "schema": 2,
+  "package": "generali_app",
+  "bundleName": "materials",
+  "shaderBundleFileName": "material.materials.c823429f.shaderbundle",
+  "sidecarFileName": "material.materials.c823429f.fmat.json",
+  "materials": {
+    "DnaToon": {
+      "entryName": "DnaToon",
+      "source": "assets/materials/dna_toon.fmat"
+    }
+  }
+}

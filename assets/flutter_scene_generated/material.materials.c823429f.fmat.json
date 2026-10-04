@@ -1,0 +1,13 @@
+{
+  "DnaToon": {
+    "name": "DnaToon",
+    "framework_varying_schema": 2,
+    "domain": "surface",
+    "shading_model": "unlit",
+    "blending": "opaque",
+    "culling": "back",
+    "uniform_block": "MaterialParams",
+    "parameters": [],
+    "samplers": []
+  }
+}

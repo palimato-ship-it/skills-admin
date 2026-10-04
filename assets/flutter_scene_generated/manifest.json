@@ -1,0 +1,27 @@
+{
+  "schema": 3,
+  "package": "generali_app",
+  "entries": [
+    {
+      "family": "material",
+      "id": "materials",
+      "file": "material.materials.c823429f.index.json",
+      "stamp": "d5e8edd4a0ee973a",
+      "target": "openglEs"
+    },
+    {
+      "family": "material",
+      "id": "materials#shaderbundle",
+      "file": "material.materials.c823429f.shaderbundle",
+      "stamp": "d5e8edd4a0ee973a",
+      "target": "openglEs"
+    },
+    {
+      "family": "material",
+      "id": "materials#sidecar",
+      "file": "material.materials.c823429f.fmat.json",
+      "stamp": "d5e8edd4a0ee973a",
+      "target": "openglEs"
+    }
+  ]
+}
