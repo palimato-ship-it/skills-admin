@@ -1,0 +1,35 @@
+material {
+  name: "DnaToon",
+  shading_model: unlit,
+  blending: opaque,
+  culling: back,
+}
+
+fragment {
+  void Surface(inout MaterialInputs material) {
+    vec3 normal = normalize(GetWorldNormal());
+    vec3 view_direction = normalize(GetViewDirection());
+    vec3 light_direction = normalize(vec3(-0.42, 0.62, -0.66));
+
+    // Three broad, softly joined light bands retain real 3D form without the
+    // polished gradients and reflections of a physically based material.
+    float light_amount = dot(normal, light_direction) * 0.5 + 0.5;
+    float shadow_to_mid = smoothstep(0.33, 0.41, light_amount);
+    float mid_to_light = smoothstep(0.70, 0.78, light_amount);
+    float tone = mix(0.56, 0.88, shadow_to_mid);
+    tone = mix(tone, 1.10, mid_to_light);
+
+    // Darken the surface just inside the silhouette. The external contour
+    // pass adds the stronger ink line around this restrained interior edge.
+    float facing = abs(dot(normal, view_direction));
+    float interior_edge = mix(0.76, 1.0, smoothstep(0.10, 0.34, facing));
+
+    vec4 vertex_color = GetVertexColor();
+    vec3 base = max(vertex_color.rgb, vec3(0.0));
+    float luminance = dot(base, vec3(0.2126, 0.7152, 0.0722));
+    base = mix(vec3(luminance), base, 1.16);
+
+    material.base_color = vec4(base * tone * interior_edge, vertex_color.a);
+    PrepareMaterial(material);
+  }
+}
