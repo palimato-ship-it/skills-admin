@@ -55105,10 +55105,10 @@ _.w=h
 _.x=i
 _.y=j},
 dBF(a,b){return new A.a2l(b,a,null)},
-d9j(a,b){var s
+d9j(a,b,c){var s
 if(b<=0)return B.n
 s=a/b*100
-if(s>=100)return B.cp
+if(c&&s>=100)return B.cp
 if(s>=80)return B.y
 if(s>=60)return B.N
 return B.h},
@@ -226572,10 +226572,10 @@ n=p.alf(0,r)
 m=p.bWi(r)
 if(q.c){l=p.alf(0,r)
 r=l>0?B.c.a_(p.aeg(r),0)+" / "+B.c.a_(l,0):B.c.a_(p.aeg(r),0)+" \xb7 Pl\xe1n neur\u010den\xfd"
-return s.NA(r,A.d9j(o,l))}r=n<=0?"Pl\xe1n neur\u010den\xfd":"BASIC "+(A.Fn(k,j).iy(o)+" \u20ac")+" / "+(A.Fn(k,j).iy(n)+" \u20ac")
+return s.NA(r,A.d9j(o,l,!1))}r=n<=0?"Pl\xe1n neur\u010den\xfd":"BASIC "+(A.Fn(k,j).iy(o)+" \u20ac")+" / "+(A.Fn(k,j).iy(n)+" \u20ac")
 q=t.p
-r=A.a([s.NA(r,A.d9j(o,n))],q)
-if(n>0&&m>n)B.b.C(r,A.a([B.cL,s.NA("VIP "+(A.Fn(k,j).iy(o)+" \u20ac")+" / "+(A.Fn(k,j).iy(m)+" \u20ac"),A.d9j(o,m))],q))
+r=A.a([s.NA(r,A.d9j(o,n,!1))],q)
+if(n>0&&m>n)B.b.C(r,A.a([B.cL,s.NA("VIP "+(A.Fn(k,j).iy(o)+" \u20ac")+" / "+(A.Fn(k,j).iy(m)+" \u20ac"),A.d9j(o,m,!0))],q))
 return A.B(r,B.cv,B.f,B.v,0,B.m)},
 $S:1719}
 A.beT.prototype={
