@@ -2,8 +2,8 @@
   "schema": 2,
   "package": "generali_app",
   "bundleName": "materials",
-  "shaderBundleFileName": "material.materials.c823429f.shaderbundle",
-  "sidecarFileName": "material.materials.c823429f.fmat.json",
+  "shaderBundleFileName": "material.materials.7dbdbd9e.shaderbundle",
+  "sidecarFileName": "material.materials.7dbdbd9e.fmat.json",
   "materials": {
     "DnaToon": {
       "entryName": "DnaToon",

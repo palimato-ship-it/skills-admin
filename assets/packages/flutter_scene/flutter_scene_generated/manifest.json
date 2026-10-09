@@ -5,29 +5,29 @@
     {
       "family": "material",
       "id": "physical",
-      "file": "material.physical.12e81437.index.json",
-      "stamp": "4364c2bf644e1cdf",
+      "file": "material.physical.18543537.index.json",
+      "stamp": "4842b225e2375e54",
       "target": "openglEs"
     },
     {
       "family": "material",
       "id": "physical#shaderbundle",
-      "file": "material.physical.12e81437.shaderbundle",
-      "stamp": "4364c2bf644e1cdf",
+      "file": "material.physical.18543537.shaderbundle",
+      "stamp": "4842b225e2375e54",
       "target": "openglEs"
     },
     {
       "family": "material",
       "id": "physical#sidecar",
-      "file": "material.physical.12e81437.fmat.json",
-      "stamp": "4364c2bf644e1cdf",
+      "file": "material.physical.18543537.fmat.json",
+      "stamp": "4842b225e2375e54",
       "target": "openglEs"
     },
     {
       "family": "shaderBundle",
       "id": "base",
-      "file": "shaderbundle.base.7c2b3348.shaderbundle",
-      "stamp": "de6d08c324301001",
+      "file": "shaderbundle.base.8cd2b13e.shaderbundle",
+      "stamp": "ec09aeb9a738a75c",
       "target": "openglEs"
     }
   ]
