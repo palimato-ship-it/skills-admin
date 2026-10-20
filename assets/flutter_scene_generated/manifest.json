@@ -3,25 +3,109 @@
   "package": "generali_app",
   "entries": [
     {
+      "family": "scene",
+      "id": "assets/models/dna_hourglass_prototype",
+      "file": "scene.dna_hourglass_prototype.4c5cb7d8.fsceneb",
+      "stamp": "92bc9ca1c8431c81",
+      "source": "assets/models/dna_hourglass_prototype.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/dna_optimized",
+      "file": "scene.dna_optimized.67587abe.fsceneb",
+      "stamp": "02b29b6437637d62",
+      "source": "assets/models/dna_optimized.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/dna_person_slice",
+      "file": "scene.dna_person_slice.b663abce.fsceneb",
+      "stamp": "959c858e6d241789",
+      "source": "assets/models/dna_person_slice.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/dna_source_cc_by_4",
+      "file": "scene.dna_source_cc_by_4.977c88ff.fsceneb",
+      "stamp": "dbf744bea4866031",
+      "source": "assets/models/dna_source_cc_by_4.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/dna_team_10_preview",
+      "file": "scene.dna_team_10_preview.ca33a5ef.fsceneb",
+      "stamp": "d1052ef58f165b52",
+      "source": "assets/models/dna_team_10_preview.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/dna_zigzag_optimized",
+      "file": "scene.dna_zigzag_optimized.119482c4.fsceneb",
+      "stamp": "3250b1bacb4a5eee",
+      "source": "assets/models/dna_zigzag_optimized.glb"
+    },
+    {
       "family": "material",
       "id": "materials",
-      "file": "material.materials.7dbdbd9e.index.json",
-      "stamp": "007d78379a02c567",
+      "file": "material.materials.1e4ea8db.index.json",
+      "stamp": "e72428a57294cc91",
+      "target": "metalDesktop"
+    },
+    {
+      "family": "material",
+      "id": "materials",
+      "file": "material.materials.d526f8cd.index.json",
+      "stamp": "800c768a16ed707a",
+      "target": "openglEs"
+    },
+    {
+      "family": "material",
+      "id": "materials",
+      "file": "material.materials.4deaccba.index.json",
+      "stamp": "3947e70ba34f3f91",
+      "target": "openglEs,vulkan"
+    },
+    {
+      "family": "material",
+      "id": "materials#shaderbundle",
+      "file": "material.materials.1e4ea8db.shaderbundle",
+      "stamp": "e72428a57294cc91",
+      "target": "metalDesktop"
+    },
+    {
+      "family": "material",
+      "id": "materials#shaderbundle",
+      "file": "material.materials.d526f8cd.shaderbundle",
+      "stamp": "800c768a16ed707a",
       "target": "openglEs"
     },
     {
       "family": "material",
       "id": "materials#shaderbundle",
-      "file": "material.materials.7dbdbd9e.shaderbundle",
-      "stamp": "007d78379a02c567",
+      "file": "material.materials.4deaccba.shaderbundle",
+      "stamp": "3947e70ba34f3f91",
+      "target": "openglEs,vulkan"
+    },
+    {
+      "family": "material",
+      "id": "materials#sidecar",
+      "file": "material.materials.1e4ea8db.fmat.json",
+      "stamp": "e72428a57294cc91",
+      "target": "metalDesktop"
+    },
+    {
+      "family": "material",
+      "id": "materials#sidecar",
+      "file": "material.materials.d526f8cd.fmat.json",
+      "stamp": "800c768a16ed707a",
       "target": "openglEs"
     },
     {
       "family": "material",
       "id": "materials#sidecar",
-      "file": "material.materials.7dbdbd9e.fmat.json",
-      "stamp": "007d78379a02c567",
-      "target": "openglEs"
+      "file": "material.materials.4deaccba.fmat.json",
+      "stamp": "3947e70ba34f3f91",
+      "target": "openglEs,vulkan"
     }
   ]
 }
