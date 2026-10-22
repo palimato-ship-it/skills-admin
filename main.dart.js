@@ -69309,7 +69309,7 @@ $S:9}
 A.daN.prototype={
 $1(a){var s=A.ji().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/af7e796e161ae0bb1ff0758c71a7105418bd9ded/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/":s)+a},
 $S:15}
 A.auR.prototype={
 gK(a){var s=this.a
