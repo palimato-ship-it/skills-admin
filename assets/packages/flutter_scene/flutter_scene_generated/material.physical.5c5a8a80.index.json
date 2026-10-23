@@ -2,8 +2,8 @@
   "schema": 2,
   "package": "flutter_scene",
   "bundleName": "physical",
-  "shaderBundleFileName": "material.physical.18543537.shaderbundle",
-  "sidecarFileName": "material.physical.18543537.fmat.json",
+  "shaderBundleFileName": "material.physical.5c5a8a80.shaderbundle",
+  "sidecarFileName": "material.physical.5c5a8a80.fmat.json",
   "materials": {
     "PhysicalOpaque": {
       "entryName": "PhysicalOpaque",
