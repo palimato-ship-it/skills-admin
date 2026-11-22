@@ -5,22 +5,22 @@
     {
       "family": "material",
       "id": "materials",
-      "file": "material.materials.f5cc4fd0.index.json",
-      "stamp": "8fd45caea3a84927",
+      "file": "material.materials.105c1482.index.json",
+      "stamp": "e7c31a6c46a907ea",
       "target": "openglEs"
     },
     {
       "family": "material",
       "id": "materials#shaderbundle",
-      "file": "material.materials.f5cc4fd0.shaderbundle",
-      "stamp": "8fd45caea3a84927",
+      "file": "material.materials.105c1482.shaderbundle",
+      "stamp": "e7c31a6c46a907ea",
       "target": "openglEs"
     },
     {
       "family": "material",
       "id": "materials#sidecar",
-      "file": "material.materials.f5cc4fd0.fmat.json",
-      "stamp": "8fd45caea3a84927",
+      "file": "material.materials.105c1482.fmat.json",
+      "stamp": "e7c31a6c46a907ea",
       "target": "openglEs"
     }
   ]
